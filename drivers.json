@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "drivers": [
+    {
+      "id": "pdit-pd304",
+      "title": "PDIT PD304 (máy in tem)",
+      "kind": "label",
+      "file": "pdit-pd304-4barcode-2024.11.14.1.exe",
+      "sha256": "5147f74c2afb8e288b82b19e46db47001da93f6678702da262b5386b7820a2db",
+      "size": 7859712,
+      "method": "infZip",
+      "inf": "4bprtv6.inf",
+      "match": [
+        "pd304",
+        "pd-304",
+        "pdit pd",
+        "4barcode",
+        "4b-"
+      ],
+      "note": "Driver 4BARCODE 2024.11.14 (Xprinter), có chữ ký số."
+    },
+    {
+      "id": "xprinter-365b",
+      "title": "Xprinter XP-365B (máy in tem)",
+      "kind": "label",
+      "file": "xprinter-365b-seagull-2022.2.exe",
+      "sha256": "284cc380c5d521bf94bc2ab60859edff07ededfe873ca7109aa8d169caf2efca",
+      "size": 52533824,
+      "method": "seagull",
+      "inf": "Xprinter.inf",
+      "match": [
+        "365b",
+        "xp-365",
+        "xp365"
+      ],
+      "note": "Driver Xprinter 2022.2 do Seagull làm, có chữ ký số."
+    },
+    {
+      "id": "kiotviet-kv804",
+      "title": "KiotViet KV 804 (máy in bill)",
+      "kind": "receipt",
+      "file": "kiotviet-kv804-pos-8.205.exe",
+      "sha256": "46b7e92c52068995fb2ecbefd01b5591efd9feece45dfde49fa0fca1c7075483",
+      "size": 4142173,
+      "method": "innoGui",
+      "model": "KV804",
+      "tool": "POS Printer Driver V8.204.exe",
+      "match": [
+        "kv804",
+        "kv-804",
+        "kv 804",
+        "kiotviet"
+      ],
+      "note": "Driver POS 8.205. Có một bước bấm tay trong công cụ của hãng."
+    }
+  ]
+}
