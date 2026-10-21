@@ -2,8 +2,8 @@
 
 Driver máy in dùng cho nút **"Cài máy in vào Windows"** trong app Máy In Tool.
 
-Các file driver nằm trong bản phát hành [`drivers`](https://github.com/lequanghuy0509/may-in-tool-drivers/releases/tag/drivers).
-App đọc danh sách `drivers.json` ở bản phát hành đó, tải đúng file, kiểm tra mã SHA-256 rồi mới cài.
+Các file driver nằm trong thư mục [`drivers/`](drivers). App đọc danh sách
+[`drivers/drivers.json`](drivers/drivers.json), tải đúng file, kiểm tra mã SHA-256 rồi mới cài.
 
 | Máy in | File | Cách cài |
 |---|---|---|
@@ -13,8 +13,8 @@ App đọc danh sách `drivers.json` ở bản phát hành đó, tải đúng fi
 
 ## Thêm hoặc cập nhật driver
 
-1. Tải file driver mới lên bản phát hành `drivers`.
-2. Thêm/sửa một mục trong `drivers.json` (cùng bản phát hành), với `sha256` và `size` đúng của file.
+1. Thêm file driver mới vào thư mục `drivers/` (mỗi file dưới 100 MB).
+2. Thêm/sửa một mục trong `drivers/drivers.json`, với `sha256` và `size` đúng của file.
 3. Không cần build lại app: app đọc `drivers.json` mỗi lần mở trang cài.
 
 Các driver là phần mềm miễn phí của từng hãng, chỉ để lại đây để khách hàng cài cho tiện.
