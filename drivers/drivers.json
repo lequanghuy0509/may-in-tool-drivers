@@ -2,6 +2,26 @@
   "version": 1,
   "drivers": [
     {
+      "id": "hprt-pos",
+      "title": "HPRT máy in bill (TP80N, TP80NL, TP80N-H, TP805, TP806…)",
+      "kind": "receipt",
+      "file": "hprt-pos-2.7.3.23.zip",
+      "sha256": "a3a2d23cce531b357ebb943ad0aa09fcb85bf234348107fff8ef92b6ff1362ca",
+      "size": 845495,
+      "method": "infZip",
+      "inf": "HPRTPOS.inf",
+      "match": [
+        "hprt",
+        "hanin",
+        "tp80n",
+        "tp805",
+        "tp806",
+        "tp808",
+        "tp58"
+      ],
+      "note": "Driver HPRT POS 2.7.3.23, có chữ ký số của Xiamen Hanin (HPRT)."
+    },
+    {
       "id": "pdit-pd304",
       "title": "PDIT PD304 (máy in tem)",
       "kind": "label",
